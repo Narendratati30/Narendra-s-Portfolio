@@ -88,16 +88,15 @@ export default function Home() {
                 <small> Hi I am</small> Narendra Tati
               </h1>
               <p>
-                web developer and project engineer currently pursuing a Master
-                of Science in Information Systems at the University of Utah. My
-                professional experience includes significant roles at Accenture
-                and Wipro Technologies, where I improved website performance,
-                usability, and data analysis processes. Proficient in Java,
-                Python, HTML, CSS, and JavaScript, I also have hands-on
-                experience with AWS and Google Cloud.
+                a data engineer and web developer currently pursuing my Master of Science in Information Systems at the University of Utah. 
+                My professional experience includes significant roles at Accenture as a Data Engineer, 
+                where I optimized data processes and built scalable data pipelines using SQL and AWS, a
+                nd at Wipro Technologies as a Junior Web Developer, where I developed responsive web interfaces and enhanced application usability. 
+                I am proficient in Java, Python, HTML, CSS, JavaScript, and have hands-on experience with cloud platforms like AWS and Google Cloud. 
+                Additionally, I hold certifications in AWS Cloud, front-end development, and Google Data Analytics.
               </p>
               <div className="call-to-action">
-                <a href="./Narendra_Resume.pdf" className="button black">
+                <a href="./Narendra_CV.pdf" className="button black">
                   {" "}
                   View Resume{" "}
                 </a>
@@ -127,9 +126,10 @@ export default function Home() {
               <img src="./imgs/html.png" alt="HTML" width="128" />
               <img src="./imgs/css.png" alt="CSS" width="128" />
               <img src="./imgs/javascript.png" alt="JS" width="128" />
+              <img src="./imgs/React.png" alt="REACT" width="128" />
+              <img src="./imgs/nodejs.png" alt="NODE>JS" width="128" />
               <img src="./imgs/java.jpg" alt="Java" width="128" />
               <img src="./imgs/python.png" alt="Python" width="128" />
-              <img src="./imgs/node.jpeg" alt="Node" width="128" />
               <img src="./imgs/selenium.png" alt="Selenium" width="128" />
               <img src="./imgs/cucumber.png" alt="Cucumber" width="128" />
               <img src="./imgs/aws.png" alt="AWS" width="128" />
@@ -152,6 +152,7 @@ export default function Home() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>React</li>
               </ul>
               <h3>BackEnd</h3>
               <ul>
@@ -168,28 +169,26 @@ export default function Home() {
               <ul>
                 <li>MySQL</li>
                 <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Big Query</li>
               </ul>
             </div>
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi, I’m Narendra Tati, a dedicated web developer and project
-                engineer based in Salt Lake City, UT. I’m currently pursuing a
-                Master of Science in Information Systems at the University of
-                Utah, where I’m expanding my expertise in Web Based
-                Applications, Python programming, and data engineering. I hold a
-                Bachelor’s degree in Electrical and Electronics Engineering from
-                Koneru Lakshmaiah University in India.
+                Hi, I’m Narendra Tati, a dedicated web developer and data engineer based in Salt Lake City, UT. 
+                I’m currently pursuing a Master of Science in Information Systems at the University of Utah, 
+                where I’m deepening my expertise in web-based applications, Python programming, and data engineering. 
+                I hold a Bachelor’s degree in Electrical and Electronics Engineering from Koneru Lakshmaiah University in India.
               </p>
               <p>
-                With professional experience at Accenture and Wipro
-                Technologies, I’ve enhanced website performance, usability, and
-                data analysis processes. My technical skills include proficiency
-                in Java, Python, HTML, CSS, JavaScript, and cloud technologies
-                like AWS and Google Cloud. I’m also certified in AWS Cloud,
-                front-end development, and responsive web design. I thrive on
-                solving complex problems, collaborating with teams, and
-                continuously learning to stay at the forefront of technology.
+                With professional experience at Accenture and Wipro Technologies, I’ve successfully enhanced website performance, 
+                optimized data processes, and improved overall usability. During my tenure at Accenture as a Data Engineer, 
+                I specialized in optimizing data processes using SQL and BigQuery. My role involved designing and implementing 
+                scalable data pipelines, automating manual processes, and improving data delivery systems. 
+                I also utilized Power BI for creating dynamic visualizations that provided actionable insights to stakeholders. 
+                This experience allowed me to develop a deep understanding of data engineering best practices and contribute to the 
+                success of various projects by ensuring data accuracy and accessibility.
               </p>
             </div>
           </div>
@@ -214,7 +213,7 @@ export default function Home() {
               </figure>
               <h3>Wipro</h3>
               <div>2021-2022</div>
-              <p>This is an IT Industry and I worked as an Project Enginner</p>
+              <p>This is an IT Industry and I worked as an Junior Web Developer</p>
             </article>
             <article>
               <figure>
@@ -230,8 +229,7 @@ export default function Home() {
               <h3>Accenture</h3>
               <div>2022-2023</div>
               <p>
-                This is an IT Industry and I worked as an Junior Frontend
-                Developer.
+                This is an IT Industry and I worked as an Data Engineer.
               </p>
             </article>
           </div>
@@ -275,7 +273,7 @@ export default function Home() {
                 have a project you think I would be a good fit for, please get in
                 touch!
               </p>
-              <a href="./Narendra_Resume.pdf" className="button black">
+              <a href="./Narendra_CV.pdf" className="button black">
                 Download Resume
               </a>
             </div>
