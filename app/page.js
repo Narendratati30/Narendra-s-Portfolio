@@ -88,12 +88,12 @@ export default function Home() {
                 <small> Hi I am</small> Narendra Tati
               </h1>
               <p>
-                a data engineer and web developer currently pursuing my Master of Science in Information Systems at the University of Utah. 
-                My professional experience includes significant roles at Accenture as a Data Engineer, 
-                where I optimized data processes and built scalable data pipelines using SQL and AWS, a
-                nd at Wipro Technologies as a Junior Web Developer, where I developed responsive web interfaces and enhanced application usability. 
-                I am proficient in Java, Python, HTML, CSS, JavaScript, and have hands-on experience with cloud platforms like AWS and Google Cloud. 
-                Additionally, I hold certifications in AWS Cloud, front-end development, and Google Data Analytics.
+                I am a software engineer currently pursuing my Master of Science in Information Systems at the University of Utah. 
+                  My professional experience includes working as a Java Developer at Accenture, where I developed and maintained Java-based backend services, 
+                  built RESTful APIs using Spring Boot, and optimized SQL queries to improve system performance. Prior to that, I was a Junior Web Developer 
+                  at Wipro Technologies, where I contributed to Java application development and collaborated with front-end teams to enhance system integration. 
+                    I am proficient in Java, Python, HTML, CSS, JavaScript, and SQL, and have hands-on experience with cloud platforms like AWS and Google Cloud. 
+                    Additionally, I hold certifications in AWS Cloud, front-end development, and Google Data Analytics.
               </p>
               <div className="call-to-action">
                 <a href="./Narendra_CV.pdf" className="button black">
