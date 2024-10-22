@@ -96,7 +96,7 @@ export default function Home() {
                     Additionally, I hold certifications in AWS Cloud, front-end development, and Google Data Analytics.
               </p>
               <div className="call-to-action">
-                <a href="./Narendra_CV.pdf" className="button black">
+                <a href="./Narendra_Resume.pdf" className="button black">
                   {" "}
                   View Resume{" "}
                 </a>
@@ -147,18 +147,21 @@ export default function Home() {
           </h2>
           <div className="holder-blue">
             <div className="left-column">
-              <h3>Frontend</h3>
+              <h3>Programming</h3>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>React</li>
-              </ul>
-              <h3>BackEnd</h3>
-              <ul>
-                <li>Python</li>
+                <li>SQL</li>
                 <li>Java</li>
-                <li>Node.js</li>
+                <li>Python</li>
+              </ul>
+              <h3>Frameworks & Libraries</h3>
+              <ul>
+                <li>Spring Boot</li>
+                <li>Hibernate</li>
+                <li>React</li>
+                <li>Rest API</li>
               </ul>
               <h3>Testing</h3>
               <ul>
@@ -176,19 +179,18 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi, I’m Narendra Tati, a dedicated web developer and data engineer based in Salt Lake City, UT. 
-                I’m currently pursuing a Master of Science in Information Systems at the University of Utah, 
-                where I’m deepening my expertise in web-based applications, Python programming, and data engineering. 
-                I hold a Bachelor’s degree in Electrical and Electronics Engineering from Koneru Lakshmaiah University in India.
+                Hi, I’m Narendra Tati, a dedicated Software engineer based in Salt Lake City, UT. 
+              I’m currently pursuing a Master of Science in Information Systems at the University of Utah, 
+              where I’m expanding my skills in data engineering, systems analysis, and Python programming. 
+              I hold a Bachelor’s degree in Electrical and Electronics Engineering from Koneru Lakshmaiah University in India.
               </p>
               <p>
-                With professional experience at Accenture and Wipro Technologies, I’ve successfully enhanced website performance, 
-                optimized data processes, and improved overall usability. During my tenure at Accenture as a Data Engineer, 
-                I specialized in optimizing data processes using SQL and BigQuery. My role involved designing and implementing 
-                scalable data pipelines, automating manual processes, and improving data delivery systems. 
-                I also utilized Power BI for creating dynamic visualizations that provided actionable insights to stakeholders. 
-                This experience allowed me to develop a deep understanding of data engineering best practices and contribute to the 
-                success of various projects by ensuring data accuracy and accessibility.
+                With professional experience at Accenture and Wipro Technologies, I’ve successfully enhanced system performance, 
+              optimized backend services, and improved application usability. During my time at Accenture as a Java Developer, 
+              I specialized in developing and maintaining scalable backend services using SQL and Spring Boot. I designed and built RESTful APIs, 
+              optimized SQL queries, and implemented multithreading techniques to improve data processing efficiency. I also utilized Tableau and 
+              Power BI to generate data visualizations that provided valuable insights to stakeholders. These experiences have equipped me with a 
+                deep understanding of data engineering best practices and the ability to contribute to the success of complex projects
               </p>
             </div>
           </div>
@@ -229,7 +231,7 @@ export default function Home() {
               <h3>Accenture</h3>
               <div>2022-2023</div>
               <p>
-                This is an IT Industry and I worked as an Data Engineer.
+                This is an IT Industry and I worked as an Java Developer.
               </p>
             </article>
           </div>
@@ -273,7 +275,7 @@ export default function Home() {
                 have a project you think I would be a good fit for, please get in
                 touch!
               </p>
-              <a href="./Narendra_CV.pdf" className="button black">
+              <a href="./Narendra_Resume.pdf" className="button black">
                 Download Resume
               </a>
             </div>
