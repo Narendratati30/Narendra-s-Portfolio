@@ -88,15 +88,19 @@ export default function Home() {
                 <small> Hi I am</small> Narendra Tati
               </h1>
               <p>
-                I am a software engineer currently pursuing my Master of Science in Information Systems at the University of Utah. 
-                  My professional experience includes working as a Java Developer at Accenture, where I developed and maintained Java-based backend services, 
-                  built RESTful APIs using Spring Boot, and optimized SQL queries to improve system performance. Prior to that, I was a Junior Web Developer 
-                  at Wipro Technologies, where I contributed to Java application development and collaborated with front-end teams to enhance system integration. 
-                    I am proficient in Java, Python, HTML, CSS, JavaScript, and SQL, and have hands-on experience with cloud platforms like AWS and Google Cloud. 
-                    Additionally, I hold certifications in AWS Cloud, front-end development, and Google Data Analytics.
+                With over two years of experience in backend and frontend
+                development, I bring a strong foundation in Java, Spring Boot,
+                and SQL optimization, alongside hands-on expertise in frameworks
+                like Hibernate and React. My background includes developing
+                scalable microservices and RESTful APIs, optimizing
+                multithreading for improved system performance, and delivering
+                seamless integration between interfaces and backend services.
+                Currently pursuing a Master of Science in Information Systems, I
+                am committed to leveraging my skills as a Full Stack Software
+                Engineer to create robust, end-to-end applications.
               </p>
               <div className="call-to-action">
-                <a href="./Narendra_Resume.pdf" className="button black">
+                <a href="./Narendra Tati_Resume.pdf" className="button black">
                   {" "}
                   View Resume{" "}
                 </a>
@@ -179,18 +183,28 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi, I’m Narendra Tati, a dedicated Software engineer based in Salt Lake City, UT. 
-              I’m currently pursuing a Master of Science in Information Systems at the University of Utah, 
-              where I’m expanding my skills in data engineering, systems analysis, and Python programming. 
-              I hold a Bachelor’s degree in Electrical and Electronics Engineering from Koneru Lakshmaiah University in India.
+                Hi, I’m Narendra Tati, a skilled software engineer based in Salt
+                Lake City, UT. Currently, I’m pursuing a Master of Science in
+                Information Systems at the University of Utah, where I’m
+                deepening my expertise in systems analysis, data engineering,
+                and Python programming. I hold a Bachelor’s degree in Electrical
+                and Electronics Engineering from Koneru Lakshmaiah University,
+                India.
               </p>
               <p>
-                With professional experience at Accenture and Wipro Technologies, I’ve successfully enhanced system performance, 
-              optimized backend services, and improved application usability. During my time at Accenture as a Java Developer, 
-              I specialized in developing and maintaining scalable backend services using SQL and Spring Boot. I designed and built RESTful APIs, 
-              optimized SQL queries, and implemented multithreading techniques to improve data processing efficiency. I also utilized Tableau and 
-              Power BI to generate data visualizations that provided valuable insights to stakeholders. These experiences have equipped me with a 
-                deep understanding of data engineering best practices and the ability to contribute to the success of complex projects
+                With professional experience at Accenture and Wipro
+                Technologies, I have developed and optimized backend systems,
+                enhanced application performance, and contributed to
+                high-quality software solutions. As a Java Developer at
+                Accenture, I focused on building robust and scalable backend
+                services using Spring Boot and SQL. I developed RESTful APIs,
+                optimized SQL queries for better response times, and applied
+                multithreading to boost data processing capabilities.
+                Additionally, I utilized tools like Tableau and Power BI to
+                create meaningful data visualizations, enabling stakeholders to
+                make data-driven decisions. These experiences have honed my
+                full-stack development skills and prepared me to contribute
+                effectively to complex software projects.
               </p>
             </div>
           </div>
@@ -215,7 +229,9 @@ export default function Home() {
               </figure>
               <h3>Wipro</h3>
               <div>2021-2022</div>
-              <p>This is an IT Industry and I worked as an Junior Web Developer</p>
+              <p>
+                This is an IT Industry and I worked as an Junior Web Developer
+              </p>
             </article>
             <article>
               <figure>
@@ -230,9 +246,7 @@ export default function Home() {
               </figure>
               <h3>Accenture</h3>
               <div>2022-2023</div>
-              <p>
-                This is an IT Industry and I worked as an Java Developer.
-              </p>
+              <p>This is an IT Industry and I worked as an Java Developer.</p>
             </article>
           </div>
         </section>
@@ -264,18 +278,18 @@ export default function Home() {
             <div className="chat-info">
               <h3>Azure AI Chatbot</h3>
               <p>
-                I have put together a chatbot here which knows all my skills,work
-                experience and has a copy of my CV/Resume. You can use it to ask
-                questions about me to get a better idea of who I am and what
-                I have done.
+                I have put together a chatbot here which knows all my
+                skills,work experience and has a copy of my CV/Resume. You can
+                use it to ask questions about me to get a better idea of who I
+                am and what I have done.
               </p>
               <p>
                 you can also download my resume here if you want to take a look
                 at it. I am currently looking for new oppurtunities so if you
-                have a project you think I would be a good fit for, please get in
-                touch!
+                have a project you think I would be a good fit for, please get
+                in touch!
               </p>
-              <a href="./Narendra_Resume.pdf" className="button black">
+              <a href="./Narendra Tati_Resume.pdf" className="button black">
                 Download Resume
               </a>
             </div>
