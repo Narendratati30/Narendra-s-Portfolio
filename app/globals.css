@@ -265,7 +265,7 @@ h1 {
 	  }
 	  
 	  .call-to-action a:hover img {
-		transform: scale(1.1); /* Slight zoom on hover */
+		transform: scale(1.0); /* Slight zoom on hover */
 	  }
 	  
 	}
