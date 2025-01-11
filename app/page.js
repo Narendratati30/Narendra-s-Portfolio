@@ -81,46 +81,38 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <section className="hero container">
+        <section className="hero">
           <div className="hero-blue">
             <div>
               <h1>
-                <small> Hi I am</small> Narendra Tati
+                <small> Hi I am</small> Narendra Tati,
               </h1>
               <p>
-                With over two years of experience in backend and frontend
-                development, I bring a strong foundation in Java, Spring Boot,
-                and SQL optimization, alongside hands-on expertise in frameworks
-                like Hibernate and React. My background includes developing
-                scalable microservices and RESTful APIs, optimizing
-                multithreading for improved system performance, and delivering
-                seamless integration between interfaces and backend services.
-                Currently pursuing a Master of Science in Information Systems, I
-                am committed to leveraging my skills as a Full Stack Software
-                Engineer to create robust, end-to-end applications.
+              Accomplished Full-Stack Developer with 3+ years of experience designing scalable backend systems, 
+              building responsive user interfaces, and deploying cloud-native applications. Skilled in Java, 
+              React, Spring Boot, AWS, and SQL optimization to deliver impactful solutions that enhance 
+              performance and user engagement.
               </p>
-              <div className="call-to-action">
+              <div className="call-to-action" >
                 <a href="./Narendra Tati_Resume.pdf" className="button black">
                   {" "}
                   View Resume{" "}
                 </a>
                 <a
-                  href="mailto:narendratati07@gmail.com"
+                  href="mailto:narendratati02@gmail.com"
                   className="button white"
                 >
                   {" "}
                   Contact Me{" "}
                 </a>
-              </div>
-              <div className="social-links">
                 <a href="https://www.linkedin.com/in/narendra-tati/">
-                  <img src="./imgs/linkedin.png" alt="Linkedin" width="48" />
-                </a>
+                  <img src="./imgs/linkedin.png" alt="Linkedin" width="40" />
+                </a>                
               </div>
             </div>
           </div>
           <div className="hero-yellow">
-            <img src="./imgs/hero-image.png" alt="Narendra Tati" width="100%" />
+            <img src="./imgs/hero-img.png" alt="Narendra Tati"/>
           </div>
         </section>
 
@@ -247,6 +239,21 @@ export default function Home() {
               <h3>Accenture</h3>
               <div>2022-2023</div>
               <p>This is an IT Industry and I worked as an Java Developer.</p>
+            </article>
+            <article>
+              <figure>
+                <div>
+                  <img
+                    src="./imgs/workplace-3.png"
+                    alt="workplace 3 -"
+                    width="100%"
+                  />
+                  <figcaption>workplace-3 University of Utah</figcaption>
+                </div>
+              </figure>
+              <h3>University of Utah</h3>
+              <div>2024-2024</div>
+              <p>This is an Educational Institution and I worked as an Full Stack Developer.</p>
             </article>
           </div>
         </section>
