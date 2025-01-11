@@ -185,54 +185,119 @@ h1 {
 }
 
 .hero {
-	display:flex;
-	@media (max-width:1024px){
-		flex-direction:column;
+	display: flex;
+	margin: 30px auto;
+  
+	@media (max-width: 1024px) {
+	  flex-direction: column;
 	}
+  
+	/* Left Side - Hero Text */
 	.hero-blue {
-		flex:1;
-		background-color: var(--blue-100);
-		border-radius:30px;
-		padding:30px;
-		display:flex;
-		flex-direction:column;
-		justify-content:center;
-		span {
-			@media (max-width:768px){
-				display:none;
-			}
+	  flex: 1;
+	  background-color: var(--blue-100);
+	  border-radius: 30px;
+	  padding: 40px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+  
+	  h1 {
+		font-size: 48px;
+		margin-bottom: 20px;
+  
+		small {
+		  display: block;
+		  font-weight: 100;
+		  color: var(--base-400);
 		}
-		.call-to-action {
-			margin-top:20px;
-			margin-bottom:10px;
-			a {
-				margin-right:10px;
-				margin-bottom:10px;
-			}
+	  }
+  
+	  p {
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 20px;
+	  }
+  
+	  .call-to-action {
+		display: flex; /* Use Flexbox */
+		gap: 15px; /* Space between items */
+		align-items: center; /* Align items vertically in the center */
+	  }
+	  
+	  .call-to-action .button {
+		display: inline-block;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-size: 16px;
+		text-align: center;
+		text-decoration: none;
+		transition: background-color 0.3s ease;
+	  }
+	  
+	  /* Styling for the Black Button */
+	  .call-to-action .button.black {
+		background-color: black;
+		color: white;
+	  
+		&:hover {
+		  background-color: #333;
 		}
-		.social-links {
-			a {
-				&:hover {
-					text-decoration:none;
-				}
-			}
+	  }
+	  
+	  /* Styling for the White Button */
+	  .call-to-action .button.white {
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+	  
+		&:hover {
+		  background-color: #f0f0f0;
 		}
+	  }
+	  
+	  /* LinkedIn Icon */
+	  .call-to-action a img {
+		display: block;
+		width: 40px; /* Ensure consistent size */
+		height: 40px; /* Ensure consistent size */
+		transition: transform 0.3s ease;
+	  }
+	  
+	  .call-to-action a:hover img {
+		transform: scale(1.1); /* Slight zoom on hover */
+	  }
+	  
 	}
+  
+	/* Right Side - Hero Image */
 	.hero-yellow {
-		flex:1;
-		background-color: var(--yellow);
-		border-radius:30px;
-		padding:0px 30px;
-		display:flex;
-		justify-content:center;
-		align-items:flex-end;
+		flex: 1;
+		background-color: whitesmoke; /* Light cream background */
+		border: 2px solid black; /* Black border */
+		border-radius: 20px; /* Rounded corners */
+		padding: 0%; /* Increased padding for better spacing */
+		display: flex;
+		justify-content: center;
+		align-items: flex-end; /* Center image vertically */
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	  
 		img {
-			margin-top:-40px;
-			max-width:420px;
-			/* margin-bottom:10px; */
+		  width: auto; /* Ensure natural aspect ratio */
+		  height: auto; /* Maintain aspect ratio */
+		  max-width: 100%; /* Image fits well in the container */
+		  max-height: 100%; /* Prevent image from overflowing */
+		  object-fit: contain; /* Ensure image fits inside the frame */
+		  border-radius: 10px; /* Add slight rounding to the image */
+		  transition: transform 0.3s ease; /* Smooth hover effect */
 		}
+	  
+		img:hover {
+		  transform: scale(1.05); /* Slight zoom on hover for interactivity */
+		}
+	  }
 	}
-}
+  
 
 .logos {
 	background-color: var(--base-100);
